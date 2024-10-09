@@ -7,4 +7,5 @@ function ContactItemimage({ imageUrl }) {
         </div>
     );
 }
+
 export default ContactItemimage;
