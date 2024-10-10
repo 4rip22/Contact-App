@@ -17,7 +17,14 @@ const getData = () => {
             name: 'Rahmat Fajri',
             tag: 'rfajri27',
             imageUrl: '/image/rfajri27.jpeg',
+        },
+        {
+            id: 4,
+            name: 'Arip Saputra',
+            tag: 'aripsaputra_22',
+            imageUrl: '/image/aripsaputra123.jpg',
         }
+
     ]
 }
 export { getData };
