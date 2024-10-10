@@ -2,9 +2,9 @@ const getData = () => {
     return[
         {
             id: 1,
-            name: 'Dimas Saputra',
-            tag: 'dimasmds',
-            imageUrl: '/image/dimasmds.jpeg',
+            name: 'Arip Saputra',
+            tag: 'aripsaputra_22',
+            imageUrl: '/image/aripsaputra123.jpg',
         },
         {
             id: 2,
@@ -20,9 +20,9 @@ const getData = () => {
         },
         {
             id: 4,
-            name: 'Arip Saputra',
-            tag: 'aripsaputra_22',
-            imageUrl: '/image/aripsaputra123.jpg',
+            name: 'Dimas Saputra',
+            tag: 'dimasmds',
+            imageUrl: '/image/dimasmds.jpeg',
         }
 
     ]
