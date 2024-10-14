@@ -8,5 +8,4 @@ const ContactItemBody = ({ name, tag}) => {
         </div>
     );
 };
-
 export default ContactItemBody;
