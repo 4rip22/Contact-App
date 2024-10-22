@@ -34,12 +34,14 @@ class ContactInput extends React.Component {
     }
     render() {
         return (
-            <form className='contact-input'>
+            <form className='contact-input' onSubmit={this.onSubmitHandler}>
                 <input type="text" 
                 placeholder="Nama" 
+                value={this.state.name}
                 />
                 <input type="text" 
-                placeholder="Tag" 
+                placeholder="Tag"
+                value={this.state.tag} 
                 />
                 <button type="submit">Tambah</button>
             </form>
